@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Sim Sun';             
+    src: url('assets/Simsun.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HanWangKai';             
+    src: url('assets/Hanwang-Kai.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+    font-family: 'HanWangKai';
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero {
+    font-family: 'Sim Sun';
+    text-align: center;
+    font-size: 200px;
+    margin-bottom: -150px;
+}
+
+.base-text {
+    font-family: 'HanWangKai';
+    font-size: 10px;
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;      
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
