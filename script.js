@@ -73,6 +73,74 @@ document.querySelectorAll('.contact-link').forEach(a => {
 });
 
 
+// Vertical highlight for links in bookmark
+document.querySelectorAll('.about-bookmark').forEach(a => {
+    a.addEventListener('mouseenter', () => {
+        document.querySelectorAll('.about-bookmark').forEach(b => {
+            b.style.backgroundColor = '#B9D9EB';
+            b.style.color = '#03045e';
+        })
+    });
+    
+    a.addEventListener('mouseleave', () => {
+        document.querySelectorAll('.about-bookmark').forEach(b => {
+            b.style.backgroundColor = '';
+            b.style.color = '';
+        })
+    });
+});
+
+document.querySelectorAll('.zine-bookmark').forEach(a => {
+    a.addEventListener('mouseenter', () => {
+        document.querySelectorAll('.zine-bookmark').forEach(b => {
+            b.style.backgroundColor = '#FFBF00';
+            b.style.color = '#9a031e';
+        })
+    });
+    
+    a.addEventListener('mouseleave', () => {
+        document.querySelectorAll('.zine-bookmark').forEach(b => {
+            b.style.backgroundColor = '';
+            b.style.color = '';
+        })
+    });
+});
+
+
+document.querySelectorAll('.work-bookmark').forEach(a => {
+    a.addEventListener('mouseenter', () => {
+        document.querySelectorAll('.work-bookmark').forEach(b => {
+            b.style.backgroundColor = '#93C572';
+            b.style.color = '#6d2e46';
+        })
+    });
+    
+    a.addEventListener('mouseleave', () => {
+        document.querySelectorAll('.work-bookmark').forEach(b => {
+            b.style.backgroundColor = '';
+            b.style.color = '';
+        })
+    });
+});
+
+document.querySelectorAll('.contact-bookmark').forEach(a => {
+    a.addEventListener('mouseenter', () => {
+        document.querySelectorAll('.contact-bookmark').forEach(b => {
+            b.style.backgroundColor = '#FFB7C5';
+            b.style.color = '#880d1e';
+        })
+    });
+    
+    a.addEventListener('mouseleave', () => {
+        document.querySelectorAll('.contact-bookmark').forEach(b => {
+            b.style.backgroundColor = '';
+            b.style.color = '';
+        })
+    });
+});
+
+
+
 // Kai face change
 document.getElementById('kai-1').addEventListener('mouseenter', () => {
     document.getElementById('kai-1').style.display = 'none';

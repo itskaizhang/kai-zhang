@@ -61,7 +61,6 @@ h3 {
 }
 
 
-
 /* zine.html */
 * {
     box-sizing: border-box;
@@ -110,3 +109,26 @@ a#link:hover {
 }
 
 
+/* bookmark */
+.bookmark {
+    font-size: 10px;
+    display: flex; 
+    text-align: center; 
+    justify-content: start; 
+    position: absolute; 
+    top: -12px;
+}
+
+
+/* MEDIA QUERIES */
+@media (max-width: 800px) {
+    .about {
+        padding: 0px 18% 0px 18%;
+    }
+
+    .bookmark {
+        font-size: 7.5px;
+        top: -8px;
+        left: 0px;
+    }
+}
