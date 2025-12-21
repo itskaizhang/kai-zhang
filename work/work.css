@@ -35,6 +35,10 @@
     line-height: 1.3em;
 }
 
+.ball {
+    color: white;
+}
+
 @media (max-width: 800px) {
     .work-description {
         padding: 20px 15% 30px 15%;

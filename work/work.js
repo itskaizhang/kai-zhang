@@ -6,7 +6,7 @@ document.getElementById('itsy-bitsy').addEventListener('click', () => {
     const top = Math.round((screen.height - (winHeight + 100) ) / 2);
     let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
                 width=${winWidth},height=${winHeight},left=${left},top=${top}`;
-    let newWin = window.open("itsy-bitsy.html", "itsy-bitsy", params);
+    let newWin = window.open("work/itsy-bitsy.html", "itsy-bitsy", params);
     newWin.document.close();
 });
 
@@ -29,7 +29,7 @@ document.getElementById('hao-qiu').addEventListener('click', () => {
     const top = Math.round((screen.height - (winHeight + 100) ) / 2);
     let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
                 width=${winWidth},height=${winHeight},left=${left},top=${top}`;
-    let newWin = window.open("hao-qiu-preview.html", "itsy-bitsy", params);
+    let newWin = window.open("work/hao-qiu-preview.html", "itsy-bitsy", params);
     newWin.document.close();
 });
 
