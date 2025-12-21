@@ -34,3 +34,13 @@
     padding: 20px 27% 30px 27%;
     line-height: 1.3em;
 }
+
+@media (max-width: 800px) {
+    .work-description {
+        padding: 20px 15% 30px 15%;
+    }
+
+    .work-images {
+        width: 75%;
+    }
+}
