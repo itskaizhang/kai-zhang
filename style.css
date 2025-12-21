@@ -110,11 +110,9 @@ a#link:hover {
 
 
 /* bookmark */
-.bookmark {
+.bookmark pre {
     font-size: 10px;
-    display: flex; 
     text-align: center; 
-    justify-content: start; 
     position: absolute; 
     top: -12px;
 }
