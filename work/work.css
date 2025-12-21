@@ -47,4 +47,12 @@ pre .ball {
     .work-images {
         width: 75%;
     }
+
+    .work-container {
+        grid-template-columns: 1fr;
+    }
+
+    .bookmark-mobile.ball a {
+        color: white;
+    }
 }
