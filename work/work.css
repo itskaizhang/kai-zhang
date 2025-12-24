@@ -9,7 +9,7 @@
 }
 
 .work-button {
-    border-radius: 8%;
+    border-radius: 8dvh;
     border: 1px dotted black;
     font-family: 'Work Sans', sans-serif;
     letter-spacing: -0.5px;

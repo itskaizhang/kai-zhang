@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Sim Sun';             
-    src: url('assets/Simsun.ttf') format('truetype');
+    src: url('../assets/fonts/') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'HanWangKai';             
-    src: url('assets/Hanwang-Kai.ttf') format('truetype');
+    src: url('../assets/fonts/Hanwang-Kai.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
