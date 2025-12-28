@@ -64,6 +64,31 @@ a.w-link:hover {
     text-decoration: underline;
 }
 
+
+/* Carousel for comics.html */
+.comic-image {
+    width: 500px;
+}
+
+ul {
+    width: 560px;
+    height: 560px;
+    padding: 5px;
+    display: flex;
+    gap: 4vw;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+    padding: 20px;
+    scroll-snap-align: center;
+    flex: 0 0 100%;
+}
+
+
 @media (max-width: 800px) {
     .work-description {
         padding: 20px 15% 30px 15%;
@@ -86,4 +111,14 @@ a.w-link:hover {
         position: relative;
         margin-bottom: 40px;
     }
+
+    ul {
+        width: 425px;
+        height: 425px;
+    }
+
+    .comic-image {
+        width: 365px;
+    }
 }
+
