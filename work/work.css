@@ -39,6 +39,31 @@ pre .ball {
     color: white;
 }
 
+/* Work selections */
+#work-title {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+a.w-link:hover {
+    /* background-color: #056f04; */
+    text-decoration: underline;
+}
+
+.credit {
+    position: absolute;
+    bottom: 4%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.credit a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 800px) {
     .work-description {
         padding: 20px 15% 30px 15%;
@@ -50,9 +75,15 @@ pre .ball {
 
     .work-container {
         grid-template-columns: 1fr;
+        gap: 45px
     }
 
     .bookmark-mobile.ball a {
         color: white;
+    }
+
+    .credit {
+        position: relative;
+        margin-bottom: 40px;
     }
 }

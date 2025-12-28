@@ -10,7 +10,6 @@ document.getElementById('itsy-bitsy').addEventListener('click', () => {
     newWin.document.close();
 });
 
-
 document.getElementById('weidao-house').addEventListener('click', () => {
     const winWidth = 1200;
     const winHeight = 700;
