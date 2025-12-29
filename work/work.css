@@ -113,12 +113,12 @@ li {
     }
 
     ul {
-        width: 400px;
-        height: 400px;
+        width: 90%;
+        height: auto;
     }
 
     .comic-image {
-        width: 350px;
+        width: 100%;
     }
 }
 
