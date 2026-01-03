@@ -22,6 +22,10 @@ document.querySelectorAll('#images').forEach(img => {
     });
 });
 
+// Hovering over face icon reverts background to white
+document.getElementById('kai-2').addEventListener('mouseenter', () => {
+    document.body.style.backgroundColor = 'white';
+});
 
 // Vertical highlight for zines, work, contact in index.html
 document.querySelectorAll('.zine-link').forEach(a => {
