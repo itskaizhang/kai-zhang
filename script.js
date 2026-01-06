@@ -144,14 +144,3 @@ document.querySelectorAll('.contact-bookmark').forEach(a => {
 });
 
 
-
-// Kai face change
-document.getElementById('kai-1').addEventListener('mouseenter', () => {
-    document.getElementById('kai-1').style.display = 'none';
-    document.getElementById('kai-2').style.display = 'inline';
-});
-
-document.getElementById('kai-2').addEventListener('mouseleave', () => {
-    document.getElementById('kai-1').style.display = 'inline';
-    document.getElementById('kai-2').style.display = 'none';
-});
