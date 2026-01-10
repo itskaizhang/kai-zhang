@@ -4,6 +4,7 @@
     place-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;
+    row-gap: 45px;
     padding-right: 30px;
     padding-left: 30px
 }
@@ -52,8 +53,8 @@ a.w-link:hover {
 }
 
 .credit {
-    position: absolute;
-    bottom: 4%;
+    position: relative;
+    bottom: 1%;
     left: 0;
     width: 100%;
     text-align: center;
@@ -101,7 +102,7 @@ li {
 
     .work-container {
         grid-template-columns: 1fr;
-        gap: 45px
+        gap: 45px;
     }
 
     .bookmark-mobile.ball a {
