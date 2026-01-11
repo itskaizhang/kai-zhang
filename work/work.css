@@ -31,6 +31,12 @@
     margin: 10px 0px 20px 0px
 }
 
+.daily-comic-images {
+    width: 40%;
+    height: auto;
+    margin: 10px 0px 20px 0px
+}
+
 .work-description {
     padding: 20px 27% 30px 27%;
     line-height: 1.3em;
@@ -97,6 +103,10 @@ li {
     }
 
     .work-images {
+        width: 75%;
+    }
+
+    .daily-comic-images {
         width: 75%;
     }
 
