@@ -9,6 +9,15 @@
     padding-left: 30px
 }
 
+.work-container > *:nth-child(1) {
+    grid-column: 2;
+}
+
+.work-container > *:nth-child(2) {
+    grid-column: 1;
+    grid-row: 1;
+}
+
 .work-button {
     border-radius: 8dvh;
     border: 1px dotted black;
@@ -23,6 +32,11 @@
     background:	#000000;
     color: #ececec;
     cursor: pointer;
+}
+
+.work-thumbnails {
+    width: 400px;
+    margin: -5px 0px 15px 0px;
 }
 
 .work-images {
@@ -58,6 +72,7 @@ a.w-link:hover {
     text-decoration: underline;
 }
 
+/* Reference for bottom centering text */
 .credit {
     position: relative;
     bottom: 1%;
@@ -106,13 +121,19 @@ li {
         width: 75%;
     }
 
+    .work-thumbnails {
+        width: 60%;
+        display: block;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
     .daily-comic-images {
         width: 75%;
     }
 
     .work-container {
         grid-template-columns: 1fr;
-        gap: 45px;
     }
 
     .bookmark-mobile.ball a {
