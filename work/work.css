@@ -6,7 +6,7 @@
     gap: 5px;
     row-gap: 45px;
     padding-right: 30px;
-    padding-left: 30px
+    padding-left: 30px;
 }
 
 .work-container > *:nth-child(1) {
@@ -35,7 +35,7 @@
 }
 
 .work-thumbnails {
-    width: 400px;
+    width: 350px;
     margin: -5px 0px 15px 0px;
 }
 
